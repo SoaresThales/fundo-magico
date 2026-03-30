@@ -3,7 +3,7 @@
 A web application that generates dynamic background styles using AI, n8n, and Google Gemini. You provide a text description, and the AI generates custom HTML and CSS, rendering a real-time preview on the screen.
 
 ## Demo
-
+![Demonstração do Fundo Mágico](./fundoMagico.gif)
 
 ## Technologies
 - HTML, CSS, JavaScript (Vanilla)
@@ -17,12 +17,14 @@ Frontend -> n8n Webhook -> Gemini AI -> JSON Parse (HTML/CSS) -> Frontend DOM In
 ## How to run locally
 
 1. Clone the repository:
-``bash
+
+``
 git clone [https://github.com/yourusername/fundo-magico.git](https://github.com/yourusername/fundo-magico.git)
 ``
 2. Configure the webhook:
 Duplicate the src/js/config.example.js file, rename it to src/js/config.js, and insert your local n8n webhook URL:
-``bash
+
+``
 window.config = {
   webhookUrl: "YOUR_N8N_WEBHOOK_URL"
 };
