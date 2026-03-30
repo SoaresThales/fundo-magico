@@ -21,6 +21,7 @@ Frontend -> n8n Webhook -> Gemini AI -> JSON Parse (HTML/CSS) -> Frontend DOM In
 ``
 git clone [https://github.com/yourusername/fundo-magico.git](https://github.com/yourusername/fundo-magico.git)
 ``
+
 2. Configure the webhook:
 Duplicate the src/js/config.example.js file, rename it to src/js/config.js, and insert your local n8n webhook URL:
 
