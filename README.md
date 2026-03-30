@@ -34,15 +34,15 @@ window.config = {
 ## Security Notice
 
 For security reasons, this public repository does not include:
--Real production endpoints
--API credentials or keys
--The internal n8n workflow structure
+- Real production endpoints
+- API credentials or keys
+- The internal n8n workflow structure
 
 To run this project fully, you must configure your own local n8n instance and provide a valid Google Gemini API key.
 
 ## Project Goals
 This project was built as a study case to explore:
--AI integration via APIs
--Back-end orchestration and automation with n8n
--Dynamic UI generation and DOM manipulation
--Front-end and AI architecture communication
+- AI integration via APIs
+- Back-end orchestration and automation with n8n
+- Dynamic UI generation and DOM manipulation
+- Front-end and AI architecture communication
